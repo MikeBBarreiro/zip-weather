@@ -48,7 +48,7 @@ body {
 #contain {
   height: 350px;
   width: 100px;
-  border: 1px solid black;
+  border: 2px solid black;
   margin-left: 685px;
   margin-top: 95px;
   position: relative;
@@ -57,11 +57,11 @@ body {
 
 #mercury {
   position: absolute;
-  width: 100%;
+  width: 99px;
   border: 1px solid black;
-  top: 50px;
-  border-bottom-left-radius:25px;
-  border-bottom-right-radius:25px;
+  bottom: 0px;
+  border-bottom-left-radius:22px;
+  border-bottom-right-radius:22px;
 }
 
 #homeButton {
@@ -74,6 +74,7 @@ body {
 
 #homeButton:hover {
   color: blue;
+
 }
 
 #line65 {
