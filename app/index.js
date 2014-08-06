@@ -42,7 +42,7 @@ app.post('/', function(req, res){
   });
 });
 
-var port = process.env.PORT;
+var port = process.env.PORT || 5001;
 
 app.listen(port, function() {
   console.log('Everything is ready on Port! ' + port);
